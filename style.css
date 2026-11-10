@@ -4,6 +4,7 @@
 
 main {
   padding: 0 12px 0;
+  background-color: #2b8fc7;
 }
 
 header p {
@@ -27,6 +28,12 @@ nav {
 
 .crumb {
   display: inline-block;
+}
+
+.bandeau {
+  padding: 12px 0;
+  display: inline-block;
+  background-color: aquamarine;
 }
 
 .premier {
@@ -54,6 +61,7 @@ h3 {
   border: 3px solid #fff;
   transform: rotate(-4deg);
   margin-bottom: 16px;
+  box-shadow: 6px 6px #2b8fc7;
 }
 
 .premier p,
@@ -80,6 +88,7 @@ h3 {
   padding: 13px 24px;
   border-radius: 14px;
   border: 3px solid #2b8fc7;
+  box-shadow: 2px 2px #2b8fc7;
   background: gold;
   font-size: 0.95rem;
 }
@@ -91,7 +100,8 @@ h3 {
   border: 4px solid #2b8fc7;
   position: relative;
   border-radius: 22px;
-  box-shadow: 6px 6px black;
+  box-shadow: 6px 6px #2b8fc7;
+  margin-top: 15px;
 }
 
 .bases,
@@ -101,4 +111,34 @@ h3 {
   border: 3px dashed skyblue;
   border-radius: 20px;
   padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 24px 16px 96px;
+  background-color: #2b8fc7;
+}
+
+form {
+  background: white;
+  gap: 14px;
+  display: grid;
+  border-radius: 22px;
+  padding: 22px;
+  border: 4px solid #2b8fc7;
+  box-shadow: 6px 6px 0 #2b8fc7;
+  margin: 20px;
+}
+
+.instagram,
+.tiktok,
+.email {
+  background: white;
+  gap: 14px;
+  display: grid;
+  border-radius: 22px;
+  padding: 10px;
+  border: 4px solid #2b8fc7;
+  box-shadow: 6px 6px 0 #2b8fc7;
+  margin: 20px;
 }
