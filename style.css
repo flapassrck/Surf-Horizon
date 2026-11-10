@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+}
+
+main {
+  padding: 0 12px 0;
+}
+
+header p {
+  margin: 0 auto;
+  text-align: center;
+  background-color: skyblue;
+  padding: 1rem;
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+
+nav {
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  background-color: skyblue;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.crumb {
+  display: inline-block;
+}
+
+.premier {
+  position: relative;
+  background-color: skyblue;
+  padding: 44px 0 0;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.05;
+  font-size: 50px;
+}
+
+.basque {
+  display: inline-block;
+  background: orange;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  padding: 6px 14px;
+  border-radius: 10px;
+  border: 3px solid #fff;
+  transform: rotate(-4deg);
+  margin-bottom: 16px;
+}
+
+.premier p,
+.deuxieme p {
+  max-width: 520px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 18px 0 24px;
+}
+
+.deuxieme {
+  background-color: bisque;
+}
+
+.troisieme {
+  background-color: skyblue;
+}
+
+.quatrieme {
+  background-color: bisque;
+}
+
+.btn1 {
+  padding: 13px 24px;
+  border-radius: 14px;
+  border: 3px solid #2b8fc7;
+  background: gold;
+  font-size: 0.95rem;
+}
+
+.demi-journee,
+.journee,
+.trois-jours {
+  padding: 28px 22px;
+  border: 4px solid #2b8fc7;
+  position: relative;
+  border-radius: 22px;
+  box-shadow: 6px 6px black;
+}
+
+.bases,
+.autonomie,
+.vagues {
+  background: #fff;
+  border: 3px dashed skyblue;
+  border-radius: 20px;
+  padding: 20px;
+}
